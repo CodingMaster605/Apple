@@ -1,0 +1,412 @@
+:root {
+    --navbar-dark: #252525;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    margin-left: 0;
+    /* background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)), url("https://wallpapercave.com/wp/wp4810103.jpg") no-repeat center center/cover;
+    background-size: 250%; */
+}
+
+.intro-section h1,.latest-products h1 {
+    /* font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif; */
+    font-size: 80px;
+}
+
+.intro-section h2 {
+    font-size: 30px;
+}
+
+.intro-section img {
+    width: 100%;
+    height: 150%;
+    /* transition: 0.25s; */
+}
+
+.latest-product h1 {
+    font-weight: lighter;
+    font-size: 6rem;
+}
+
+.latest-product p {
+    font-size: 3rem;
+}
+
+.latest-product a {
+    font-size: 1.75rem;
+    text-decoration: none;
+    color: rgb(25, 140, 185);
+}
+
+.lates-product a:hover {
+    text-decoration: underline;
+}
+
+.latest-product img {
+    width: 60%;
+}
+
+/* .intro-section img:hover {
+    transform: scale(1.15);
+} */
+li {
+    display: inline;    
+}
+section {
+    height: 100vh;
+    margin: 0;
+}
+
+
+nav {
+    padding: 2px;
+    margin: 0;
+    text-align: center;
+    background: linear-gradient(rgba(37, 37, 37, 0.932),rgba(37, 37, 37, 0.966));
+    position: fixed;
+    width: 100%;
+    backdrop-filter: blur(15px);
+    /* filter: blur(1.5px); 
+    z-index: -1; */
+}
+
+nav:focus {
+    outline: none;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 12.5px;
+    /* z-index: 1; */
+    
+    /* filter: blur(0); */
+
+}
+nav ul li {
+    padding: 45px;
+}
+    
+/* Homepage */
+
+section {
+    height: 100%;
+}
+
+.iphone12prohp {
+    position: relative;
+    top: 15%;
+    left: 5%;
+}
+
+.hpiphonetag {
+    font-weight: 400;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+
+}
+
+.iphone-card {
+    /* border: 1px solid black; */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* .iphone-card-img, .iphone-card-desc {
+    border: 1px solid red;
+} */
+
+.iphone-card-img {
+    padding: 5%;
+    width: 40%;
+}
+
+.iphone-card-img img {
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 100%;
+    /* height: 100%; */
+}
+
+.iphone-section {
+    /* margin-top: 3px; */
+    background-color: black;
+    color: white;
+    /* height: 65vh; */
+}
+
+.iphone-card-desc {
+    padding: 5%;
+}
+
+.iphone-card-desc h1  {
+    font-size: 4rem;
+}
+
+.iphone-card-desc h1 span {
+    color: orange;
+    font-size: 1rem;
+    font-weight: lighter;
+}
+
+.iphone-card-desc p {
+    font-size: 2.75rem;
+    font-weight: lighter;
+}
+
+.buy-learn-links a, .buy-learn-links span {
+    font-size: 1.5rem;
+    text-decoration: none;
+    color: #0071e3;
+    font-weight: 400;
+    margin: 2%;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.product-card {
+    /* border: 1px solid black; */
+    padding: 10% 3%;
+    width: 30%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.product-card:nth-child(1) {
+    color: white;   
+    background-image: url("https://www.apple.com/newsroom/images/tile-images/Apple_new-macbook-air-wallpaper-screen_03182020.jpg.landing-big_2x.jpg");
+}
+
+.product-card h1 {
+    font-size: 2rem;
+}
+
+.buy-learn-links a:hover {
+    text-decoration: underline;
+}
+
+.hpiphonetag2 {
+    font-weight: 200;
+    font-size: 40px;
+    position: absolute;
+    top: 35%;
+    left: 50%;
+}
+
+.aiphonehp1 {
+    text-decoration: none;
+    color: #0071e3;
+}
+.aiphonehp1:hover {
+    text-decoration: underline;
+}
+.aiphonehp2 {
+    text-decoration: none;
+    color: #0071e3;
+}
+.aiphonehp2:hover {
+    transition: 0.8s;
+    text-decoration: underline;
+}
+
+/* iPad Section */
+
+.ipad4img {
+    /* position: absolute; */
+    top: 37%;
+    left: 10%;
+}
+
+.h1ipad {
+    font-weight: lighter;
+    /* margin: 60px; */
+    margin: 0;
+    font-size: 500%;
+    padding-top: 5%;
+}
+
+.ipadtag1 {
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    font-size: 400%;
+}
+
+.ipadtag2 {
+    font-size: 200%;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+}
+
+.orangeNewText {  
+    font-size: 20px;
+    position: absolute;     
+    top: 45%;
+    left: 50%;
+    color: orange;
+}
+
+.ipad20201 {
+    /* position: absolute; */
+    top: 105%;
+    left: 15%;
+}
+
+.orangeNewText2 {  
+    font-size: 20px;
+    position: absolute;     
+    top: 115%;
+    left: 50%;
+    color: orange;
+}
+
+.normalipadtag1 {
+    font-size: 400%;
+    position: absolute;
+    top: 120%;
+    left: 50%;
+}
+
+.normalipadtag2 {
+    font-size: 200%;
+    position: absolute;
+    top: 135%;
+    left: 50%;
+}
+
+.buyipad {
+    width: 35px;
+    height: 30px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px #0071e3;
+    font-size: 20px;
+    background-color: #0071e3;
+    color: white;
+    border-radius: 50px;
+    /* position: absolute; */
+    top: 55%;
+    left: 70%;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-weight: lighter;
+    /* margin-bottom: 5%; */
+}
+
+.ipad-desc {
+    padding-top: 5%;
+}
+
+.ipad-desc h2 {
+    font-size: 3.5rem;
+    display: flex;
+}
+.buyipad4:focus {
+    outline: none;
+}
+
+.ipad-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* margin: 5%; */
+}
+
+.new-quote {
+    color: orange;
+}
+
+.buyipad2020 {
+    width: 60px;
+    height: 40px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px #0071e3;
+    font-size: 20px;
+    background-color: #0071e3;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+}
+.buyipad2020:focus {
+    outline: none;
+}
+
+.ipadpro2020 {
+    font-size: 400%;
+    position: absolute;
+    top: 205%;
+    left: 15%;
+}
+.ipadpro2020img {
+    /* position: absolute; */
+    top: 200%;
+    left: 50%;
+    padding: 0;
+}
+.ipadprotag1 {
+    font-size: 200%;
+    position: absolute;
+    top: 225%;
+    left: 15%;
+    padding: 0;
+}
+.buyipadpro {
+    width: 60px;
+    height: 40px;   
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    cursor: pointer;
+    border: solid 1px #0071e3;
+    font-size: 20px;
+    background-color: #0071e3;
+    color: white;
+    border-radius: 50px;
+    position: absolute;
+    top: 245%;
+    left: 27%;
+    padding: 0;
+}
+.buyipadpro:focus {
+    outline: none;
+}
+/* iPhone */
+
+.iphone-12-hp {
+    size: 50em;
+}
+
+/* Apple Watch */
+
+.applewatchh1 {
+    font-size: 500%;
+    font-weight: lighter;
+}
+
+/* Font */
+
+.intro-section, .latest-products, .h1ipad, .ipadtag1, .ipadtag2, .orangeNewText, .orangeNewText2, .normalipadtag1, .normalipadtag2, .ipadpro2020, .ipadprotag1, .applewatchh1, .applewatch6tag, .hpiphonetag2 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    height: 100%;
+}
+
