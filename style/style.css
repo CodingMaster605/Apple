@@ -306,11 +306,12 @@ section {
     text-decoration: none;
     padding: 5px 10px;
     font-weight: lighter;
+    margin: 4%;
     /* margin-bottom: 5%; */
 }
 
 .ipad-desc {
-    padding-top: 5%;
+    padding-top: 6%;
 }
 
 .ipad-desc h2 {
@@ -321,15 +322,29 @@ section {
     outline: none;
 }
 
+/* .ipad-desc .buyipad {
+    position: inher
+} */
+
 .ipad-info {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    /* margin: 5%; */
+    margin: 5%;
 }
+
+.ipad-info img {
+    padding: 50px;
+}
+
 
 .new-quote {
     color: orange;
+}
+
+.ipad-desc h3 {
+    font-weight: lighter;
+    font-size: 2.5vmax;
 }
 
 .buyipad2020 {
